@@ -16,6 +16,11 @@ class Polygon {
   	this.area = newArea;
   }
 
+  emptying(){
+  	this.height = 0;
+  	this.width = 0;
+  }
+
 }
 
 const square = new Polygon(10, 10);
